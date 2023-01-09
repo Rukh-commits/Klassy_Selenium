@@ -33,7 +33,7 @@ public class MainPageTest {
         int low = 10;
         int high = 100;
         int result = r.nextInt(high-low) + low;
-        String email="test_user" + result+"@gmail.com";
+        String email="testuser" + result+"@gmail.com";
 
         //Testing
         open("http://ec2-35-77-97-46.ap-northeast-1.compute.amazonaws.com:8181/register");
